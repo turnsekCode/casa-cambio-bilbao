@@ -21,7 +21,7 @@ const schema = {
   "@context": "http://www.schema.org",
   "@type": "Organization",
   name: "Quickgold",
-  url: "https://quickgold.es/casa-cambio-barcelona/",
+  url: "https://quickgold.es/casa-cambio-bilbao/",
   sameAs: [
     "https://instagram.com/quickgold.es",
     "https://twitter.com/quickgoldqg",
@@ -30,11 +30,11 @@ const schema = {
   logo: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
   image: "https://quickgold.es/wp-content/uploads/img/logo.jpg",
   description:
-    "Casas de cambio en Barcelona. Cambia dólares a euros en nuestras oficinas de cambio quickgold. Cambio de moneda extranjera al momento y sin comisiones",
+    "¿Necesitas cambiar divisa en Bilbao? Visita nuestra tienda money Exchange y cambia moneda extranjera al momento y sin comisiones. Solo en Quickgold.",
   address: {
     "@type": "PostalAddress",
-    addressLocality: "Barcelona",
-    addressRegion: "Cataluña",
+    addressLocality: "Bilbao",
+    addressRegion: "Bilbao",
     addressCountry: "España",
   },
   contactPoint: {
@@ -56,8 +56,8 @@ const breadCrumb = {
     {
       "@type": "ListItem",
       position: 2,
-      name: "Casa cambio Barcelona",
-      item: "https://quickgold.es/casa-cambio-barcelona/",
+      name: "Casa cambio bilbao",
+      item: "https://quickgold.es/casa-cambio-bilbao/",
     },
   ],
 };
@@ -84,12 +84,11 @@ export default function Home({
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(breadCrumb) }}
         ></script>
-        <title>
-          Casas de Cambio en Barcelona | Cambio de Divisas Barcelona
-        </title>
+        <title>Casas de Cambio en Bilbao | Cambio de Divisas Bilbao</title>
         <meta
           name="description"
-          content="Casas de cambio en Barcelona. Cambia dólares a euros en nuestras oficinas de cambio quickgold. Cambio de moneda extranjera al momento y sin comisiones. "
+          content="¿Necesitas cambiar divisa en Bilbao? Visita nuestra tienda money Exchange y cambia moneda
+          extranjera al momento y sin comisiones. Solo en Quickgold."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.png" />
@@ -119,7 +118,7 @@ export default function Home({
     </>
   );
 }
-const idTienda = "barcelona";
+const idTienda = "bilbao";
 //const idWp = "13848";
 export async function getStaticProps() {
   /*const response = await fetch(

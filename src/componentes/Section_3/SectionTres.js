@@ -8,28 +8,30 @@ const SectionTres = () => {
         <div className={styles.bloqueIzq}>
           <h2>
             ¿Necesitas una oficina de cambio en
-            <span className={styles.linea}> Barcelona?</span>
+            <span className={styles.linea}> Bilbao?</span>
           </h2>
           <p>
             <span>
-              En Quickgold tenemos actualmente 3 casas de cambio para que puedas
-              cambiar moneda extrajera fácil y rápido.
+              Nuestra casa de cambio en Bilbao se encuentra en calle Ercilla
+              número 36. Te esperamos para cambiar tu divisa y llevarte euros en
+              efectivo y al instante.{" "}
             </span>
-            Tenemos más de 30 divisas disponibles para ofrecerte el mejor
-            servicio.
+            Podrás cambiar dólares por euros, libras, pesos, reales, dirhams,
+            tenemos más de 30 monedas extranjeras disponibles para el cambio.
           </p>
         </div>
         <div className={styles.bloqueDer}>
           <h2>¿Cómo cambiar divisa?</h2>
           <p>
-            Acude a tu casa de cambio quickgold más cercana, indícanos la moneda
-            extranjera que quieres cambiar y recibe el dinero en efectivo al
-            instante.
+            Cambiar divisa en Quickgold Bilbao es muy sencillo. Visita nuestra
+            tienda Money Exchange, indícanos la divisa qué quieres cambiar y al
+            momento podrás llevarte euros al mejor tipo de cambio de toda la
+            ciudad de Bilbao.
           </p>
         </div>
       </div>
       <h1>
-        Cambiar divisa en <span className={styles.linea}>Barcelona</span> es muy
+        Cambiar divisa en <span className={styles.linea}>Bilbao</span> es muy
         fácil
       </h1>
       <div className={styles.contenedorInfoTres}>

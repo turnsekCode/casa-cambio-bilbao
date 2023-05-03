@@ -8,26 +8,24 @@ const SectionCuatro = () => {
       <div className={styles.bloqueIzq}>
         <h2>
           Cambia moneda extranjera en {""}
-          <span className={styles.linea}>Barcelona</span>
+          <span className={styles.linea}>Bilbao</span>
         </h2>
         <p>
-          En las oficinas de cambio de divisa quickgold en Barcelona puedes
-          cambiar dólares a euros en tan solo unos minutos. Recuerda llevar el
-          dinero que necesitas cambiar y, al instante, recibirás la moneda
-          extranjera que necesites en efectivo. Además, ofrecemos mejoras en la
-          tasa de cambio por cantidad, por lo tanto siempre estamos dispuesto a
-          escuchar tus necesidades para ofrecerte el mejor tipo de cambio de la
-          ciudad de Barcelona. Olvídate de cambiar divisa en el aeropuerto o en
-          el banco, en quickgold ofrecemos las mejores condiciones y ponemos a
-          tu disposición diferentes casas de cambio para estar siempre cerca de
-          ti.
+          Tanto si vives en Bilbao como si estás de vacaciones en esta
+          fantástica ciudad del norte, tienes la suerte de tener una casa de
+          cambio Quickgold para que cambiar divisa sea un proceso sencillo y
+          rápido. Recuerda que en nuestra casa de cambio en Bilbao realizamos
+          mejoras en el tipo de cambio por cantidad. Indícanos tus necesidades
+          y, sin compromiso, te asesoraremos y te ofreceremos el mejor tipo de
+          cambio de la ciudad. Cambia moneda extranjera en Bilbao de manera
+          fácil y rápida.
         </p>
       </div>
       <div className={styles.bloqueDer}>
         <img
           loading="lazy"
-          src="/casa-cambio-barcelona.webp"
-          alt="Cambiar Dólares a Euros Barcelona"
+          src="/casa-cambio-bilbao.webp"
+          alt="Cambiar Dólares a Euros bilbao"
           className={styles.Image}
           width={480}
           height={390}
