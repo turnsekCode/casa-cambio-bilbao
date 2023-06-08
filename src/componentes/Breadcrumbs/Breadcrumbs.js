@@ -15,7 +15,7 @@ const Breadcrumbs = () => {
         href="https://quickgold.es/casa-cambio-bilbao/"
         title="Ir a casa cambio bilbao"
       >
-        Casa Cambio bilbao
+        Casa Cambio Bilbao
       </a>
     </div>
   );
